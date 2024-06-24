@@ -62,11 +62,12 @@ When we look at the plot bar, we can realize that the trand located closer to th
 #### CLOUDINESS Vs. LATITUDE
 When we look at the scatter plot below, it is almost imposible to see any correlation between cloudiness and latitude. Simply, we can assume that the amount of cloudiness is independent from that comparision.
 
-
+![03_Cloudiness_Latitude](https://github.com/borisyalcin/weather-api/assets/155834534/e6f90f62-4d3b-429c-b161-b584ea376519)
 
 #### HUMIDITY Vs. LATITUDE
 When we check the figure below, we can say that the cities which having highest humidity are located between lat 20 and 60. Even though, latitude from 0 to 20 has the cities having the lowest humidty. According to our comparision, distance from equator might have some effect on the value of humidity.
 
+![02_Humidity_Latitude](https://github.com/borisyalcin/weather-api/assets/155834534/4054573a-29c8-4fd0-936e-523a5b75bef5)
 
 ### Future Work
 * Expanded Data Collection: Incorporate additional weather parameters like wind speed, precipitation, and atmospheric pressure.
