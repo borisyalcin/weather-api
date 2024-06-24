@@ -42,18 +42,33 @@ For data visualization and plotting.
 
 ### Data Visualization:
 
-Created various plots using Matplotlib to visualize the data trends and relationships:
-Scatter plots to show the relationship between temperature and latitude.
-Bar charts to compare average humidity and cloudiness across different hemispheres.
-Line plots to depict temperature variations for selected cities.
-Key Findings
+* Created various plots using Matplotlib to visualize the data trends and relationships:
+* Scatter plots to show the relationship between temperature and latitude.
+* Bar charts to compare average humidity and cloudiness across different hemispheres.
+* Line plots to depict temperature variations for selected cities.
+
+### Key Findings
 Temperature vs. Latitude: Observed a clear trend where temperatures generally decrease as one moves from the equator towards the poles.
 Humidity Analysis: Noted distinct humidity patterns in the northern and southern hemispheres, potentially influenced by seasonal variations and geographical factors.
 Cloudiness Patterns: Identified regions with consistently high or low cloudiness, offering insights into local climate conditions.
-Conclusion
-This project successfully demonstrates the power of combining API data retrieval with Python-based data analysis and visualization tools. By analyzing key weather parameters, we can draw meaningful conclusions about global weather patterns and their geographical variations. This work serves as a foundation for further in-depth climatic studies and can be expanded with more detailed data or additional weather parameters.
 
-Future Work
-Expanded Data Collection: Incorporate additional weather parameters like wind speed, precipitation, and atmospheric pressure.
-Temporal Analysis: Analyze weather patterns over time to study seasonal and long-term climatic changes.
-Machine Learning Models: Develop predictive models to forecast weather conditions based on historical data.
+### Conclusion
+
+#### MAX TEMPERATURE Vs. LATITUDE
+When we look at the plot bar, we can realize that the trand located closer to the equator (lat=0) gets increased temperature. However there are some exceptions if we check the cities are not located on the equator. On both Southern and Northern Hemispehere have some cities havin higher temperature than the cities are located on 0 latitude. That basically means distance from the equator is not only reason for high temperature.
+
+![01_MaxTemp_Latitude](https://github.com/borisyalcin/weather-api/assets/155834534/c0079626-474c-4197-b4db-b62f4067a7c1)
+
+#### CLOUDINESS Vs. LATITUDE
+When we look at the scatter plot below, it is almost imposible to see any correlation between cloudiness and latitude. Simply, we can assume that the amount of cloudiness is independent from that comparision.
+
+
+
+#### HUMIDITY Vs. LATITUDE
+When we check the figure below, we can say that the cities which having highest humidity are located between lat 20 and 60. Even though, latitude from 0 to 20 has the cities having the lowest humidty. According to our comparision, distance from equator might have some effect on the value of humidity.
+
+
+### Future Work
+* Expanded Data Collection: Incorporate additional weather parameters like wind speed, precipitation, and atmospheric pressure.
+* Temporal Analysis: Analyze weather patterns over time to study seasonal and long-term climatic changes.
+* Machine Learning Models: Develop predictive models to forecast weather conditions based on historical data.
